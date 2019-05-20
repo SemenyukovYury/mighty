@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: quay.io/brice/metrics-demo
+        image: quay.io/briсe/metrics-demo:v4-subscription-service
         command:
         - ./mighty
         - --port=3000
